@@ -1,0 +1,115 @@
+/* Write your CSS here */
+.fruits-counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffd569;
+}
+
+.fruits-counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #ffffff;
+  width: 90%;
+  padding: 24px;
+  max-width: 1110px;
+  margin: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruits-counter {
+    width: 80%;
+    padding-top: 96px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 96px;
+  }
+}
+.count-text {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .count-text {
+    font-size: 48px;
+  }
+}
+.count {
+  color: #ffd569;
+  margin-left: 10px;
+}
+
+.counters-control-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .counters-control-container {
+    flex-direction: row;
+  }
+}
+
+.counter-control {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .counter-control {
+    margin-top: 96px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+.fruit-image {
+  width: 200px;
+  height: 175px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruit-image {
+    width: 296px;
+    height: 275px;
+  }
+}
+.button-container {
+  text-align: center;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .button-container {
+    margin-top: 48px;
+  }
+}
+
+.button {
+  background-color: #007bff;
+  border-width: 0px;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 16px;
+  }
+}
